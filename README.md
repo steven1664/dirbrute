@@ -1,5 +1,7 @@
 # dirbrute
 
+Python script for URL directory and file discovery
+
 ## Usage
 
 *Run dirbrute for a URL against a list of directories or files*
