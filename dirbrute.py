@@ -61,4 +61,4 @@ if __name__ == '__main__':
         t.start()
     for thread in threading.enumerate():
         if thread is not threading.currentThread():
-            thread.join()
+            thread.join(timeout=5.0)
